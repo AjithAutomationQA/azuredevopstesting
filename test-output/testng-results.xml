@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="iOSAutomation" duration-ms="80266" started-at="2022-03-03T13:15:06 IST" finished-at="2022-03-03T13:16:26 IST">
+    <groups>
+    </groups>
+    <test name="AnsweringService" duration-ms="80266" started-at="2022-03-03T13:15:06 IST" finished-at="2022-03-03T13:16:26 IST">
+      <class name="com.answerconnect.deployment.testcases.Sign_In_Anct">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862]" name="launchApp" is-config="true" duration-ms="9907" started-at="2022-03-03T13:15:06 IST" finished-at="2022-03-03T13:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862]" name="beforeTest" is-config="true" duration-ms="6" started-at="2022-03-03T13:15:16 IST" finished-at="2022-03-03T13:15:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.answerconnect.deployment.testcases.Sign_In_Anct.signIn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862]" name="signIn" duration-ms="68790" started-at="2022-03-03T13:15:16 IST" description="Sign_In_Anct" finished-at="2022-03-03T13:16:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862]" name="afterMethod" is-config="true" duration-ms="1418" started-at="2022-03-03T13:16:24 IST" finished-at="2022-03-03T13:16:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=Sign_In_Anct.signIn()[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.answerconnect.deployment.testcases.Sign_In_Anct@62e8f862]" name="tearDown" is-config="true" duration-ms="136" started-at="2022-03-03T13:16:26 IST" finished-at="2022-03-03T13:16:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.answerconnect.deployment.testcases.Sign_In_Anct -->
+    </test> <!-- AnsweringService -->
+  </suite> <!-- iOSAutomation -->
+</testng-results>
